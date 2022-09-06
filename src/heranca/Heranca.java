@@ -15,7 +15,13 @@ public class Heranca {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Automovel carro = new Automovel();
+        Automovel moto = new Automovel();
+        
+        carro.setNumPlaca("MMM 0253");
+        carro.setNumPortas(3);
+        carro.setNumeRodas(4);
+        carro.setCapasidade(5);
     }
     
 }
